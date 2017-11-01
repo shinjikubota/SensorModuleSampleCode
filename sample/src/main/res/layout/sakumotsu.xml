@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:text="農作物を選択して下さい"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:choiceMode="multipleChoice"
+        android:layout_width="600dp"
+        android:layout_height="500dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        />
+
+    <Button
+        android:id="@+id/tsugi"
+        android:onClick="tsugi"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/listView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        android:text="次へ"
+        android:textSize="40dp" />
+
+
+
+
+</RelativeLayout>

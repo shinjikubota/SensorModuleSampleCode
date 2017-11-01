@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="123dp"
+        android:text="追加する肥料を入力して下さい"
+        android:textSize="40dp" />
+
+
+    <EditText
+        android:id="@+id/editT"
+        android:layout_width="800dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="17dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="例：住友化学肥料A"
+        android:textSize="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="soushin"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="追加"
+        android:textSize="40dp"
+        android:layout_below="@+id/editT"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp" />
+
+</RelativeLayout>

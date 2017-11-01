@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/pod1"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="27dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="58dp"
+        android:onClick="tsugi"
+        android:text="次へ"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="129dp"
+        android:text="ポット"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp" />
+
+    <Spinner
+        android:id="@+id/kazu2"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_toEndOf="@+id/pod3"
+        android:layout_marginStart="76dp"
+        android:layout_alignTop="@+id/pod2" />
+
+    <Spinner
+        android:id="@+id/pod2"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/pod1"
+        android:layout_alignStart="@+id/pod1" />
+
+    <Spinner
+        android:id="@+id/pod3"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="63dp"
+        android:layout_below="@+id/pod2"
+        android:layout_alignStart="@+id/pod2" />
+
+    <Spinner
+        android:id="@+id/kazu3"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/pod3"
+        android:layout_alignStart="@+id/kazu2" />
+
+    <Spinner
+        android:id="@+id/kazu1"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/kazu2"
+        android:layout_alignTop="@+id/pod1" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:textSize="50dp"
+        android:layout_alignBottom="@+id/kazu1"
+        android:layout_toStartOf="@+id/kazu1"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="X"
+        android:textSize="50dp"
+        android:layout_alignBottom="@+id/kazu2"
+        android:layout_alignStart="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/kazu3"
+        android:layout_marginTop="34dp"
+        android:text="X"
+        android:textSize="50dp"
+        android:layout_alignStart="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="枚数"
+        android:textSize="40dp"
+        android:layout_above="@+id/pod1"
+        android:layout_alignStart="@+id/kazu1" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="播種したポッドと枚数を選択して下さい"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_marginTop="35dp" />
+
+</RelativeLayout>

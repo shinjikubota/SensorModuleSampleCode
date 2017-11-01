@@ -1,0 +1,306 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.alps.sample">
+
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	<uses-permission android:name="android.permission.INTERNET" ></uses-permission>
+
+
+	<uses-feature
+			android:name="android.hardware.bluetooth_le"
+			android:required="true" />
+
+	<application android:allowBackup="true"
+	             android:name=".AppDelegate"
+	             android:label="@string/app_name"
+	             android:icon="@mipmap/icon5"
+	             android:theme="@style/AppTheme">
+		<activity
+
+
+
+
+
+				android:name=".activity.connection.TopView"
+
+
+
+
+
+
+
+
+
+
+
+                android:screenOrientation="portrait"
+				android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity
+				android:name=".activity.scan.ActivityScan"
+				android:label="@string/app_name"
+				android:screenOrientation="portrait"
+				android:windowSoftInputMode="adjustResize" />
+		<activity
+				android:name=".activity.connection.ActivitySensorCommunication"
+				android:label="@string/app_name"
+				android:screenOrientation="portrait"
+				android:windowSoftInputMode="adjustResize" />
+		<activity
+			android:name=".activity.connection.AGApp"
+			android:label="@string/app_name" >
+		</activity>
+
+		<activity
+			android:name=".activity.connection.teisyoku"
+			android:label="@string/app_name" >
+		</activity>
+
+		<activity
+			android:name=".activity.connection.boujyo"
+			android:label="@string/app_name" >
+		</activity>
+
+		<activity
+			android:name=".activity.connection.sehi"
+			android:label="@string/app_name" >
+		</activity>
+
+		<activity
+			android:name=".activity.connection.syuukaku"
+			android:label="@string/app_name" >
+		</activity>
+
+		<activity
+			android:name=".activity.connection.serverdata"
+			android:label="@string/app_name" >
+		</activity>
+
+
+
+		<activity
+			android:name=".activity.connection.tei1"
+			android:label="@string/app_name" >
+		</activity>
+
+		<activity
+			android:name=".activity.connection.tei2"
+			android:label="@string/app_name" >
+		</activity>
+
+		<activity
+			android:name=".activity.connection.tei3"
+			android:label="@string/app_name" >
+		</activity>
+
+		<activity
+			android:name=".activity.connection.tei4"
+			android:label="@string/app_name" >
+		</activity>
+
+
+
+		<activity
+			android:name=".activity.connection.bou1"
+			android:label="@string/app_name" >
+		</activity>
+
+		<activity
+			android:name=".activity.connection.bou2"
+			android:label="@string/app_name" >
+		</activity>
+
+		<activity
+			android:name=".activity.connection.bou3"
+			android:label="@string/app_name" >
+		</activity>
+
+		<activity
+			android:name=".activity.connection.bou4"
+			android:label="@string/app_name" >
+		</activity>
+
+
+
+
+		<activity
+			android:name=".activity.connection.seh1"
+			android:label="@string/app_name" >
+		</activity>
+
+		<activity
+			android:name=".activity.connection.seh2"
+			android:label="@string/app_name" >
+		</activity>
+
+		<activity
+			android:name=".activity.connection.seh3"
+			android:label="@string/app_name" >
+		</activity>
+
+		<activity
+			android:name=".activity.connection.seh4"
+			android:label="@string/app_name" >
+		</activity>
+
+
+
+
+		<activity
+			android:name=".activity.connection.syu1"
+			android:label="@string/app_name" >
+		</activity>
+
+		<activity
+			android:name=".activity.connection.syu2"
+			android:label="@string/app_name" >
+		</activity>
+
+		<activity
+			android:name=".activity.connection.syu3"
+			android:label="@string/app_name" >
+		</activity>
+
+		<activity
+			android:name=".activity.connection.syu4"
+			android:label="@string/app_name" >
+		</activity>
+
+
+		//新たにスプラッシュ画面の定義
+		<activity
+			android:name=".activity.splash.ActivitySplash"
+			android:label="@string/app_name" >
+		</activity>
+
+
+		<activity
+			android:name=".activity.connection.sagyosha"
+			android:label="@string/app_name" >
+		</activity>
+
+
+		<activity
+			android:name=".activity.connection.hojyo"
+			android:label="@string/app_name" >
+		</activity>
+
+
+
+		<activity
+			android:name=".activity.connection.soushin"
+			android:label="@string/app_name" >
+		</activity>
+
+
+		<activity
+			android:name=".activity.connection.prof"
+			android:label="@string/app_name" >
+		</activity>
+
+
+		<activity
+			android:name=".activity.connection.profsag"
+			android:label="@string/app_name" >
+		</activity>
+
+
+        <activity
+            android:name=".activity.connection.profsak"
+            android:label="@string/app_name" >
+        </activity>
+
+
+        <activity
+            android:name=".activity.connection.profh"
+            android:label="@string/app_name" >
+        </activity>
+
+
+        <activity
+            android:name=".activity.connection.profn"
+            android:label="@string/app_name" >
+        </activity>
+
+
+        <activity
+            android:name=".activity.connection.profhi"
+            android:label="@string/app_name" >
+        </activity>
+
+
+        <activity
+            android:name=".activity.connection.profc"
+            android:label="@string/app_name" >
+        </activity>
+
+
+		<activity
+			android:name=".activity.connection.sakumotsu"
+			android:label="@string/app_name" >
+		</activity>
+
+
+		<activity
+			android:name=".activity.connection.AGAppHashu"
+			android:label="@string/app_name" >
+		</activity>
+
+
+		<activity
+			android:name=".activity.connection.AGAppTeisyoku"
+			android:label="@string/app_name" >
+		</activity>
+
+
+		<activity
+			android:name=".activity.connection.AGAppBoujyo"
+			android:label="@string/app_name" >
+		</activity>
+
+
+		<activity
+			android:name=".activity.connection.AGAppSehi"
+			android:label="@string/app_name" >
+		</activity>
+
+
+		<activity
+			android:name=".activity.connection.AGAppSyuukaku"
+			android:label="@string/app_name" >
+		</activity>
+
+
+		<activity
+			android:name=".activity.connection.AGAppSyuxtuka"
+			android:label="@string/app_name" >
+		</activity>
+
+
+		<activity
+			android:name=".activity.connection.AGAppKakunin"
+			android:label="@string/app_name" >
+		</activity>
+
+
+		<activity
+			android:name=".activity.connection.profsyu"
+			android:label="@string/app_name" >
+		</activity>
+
+
+		<activity
+			android:name=".activity.connection.AGAppSansui"
+			android:label="@string/app_name" >
+		</activity>
+
+
+	</application>
+
+</manifest>

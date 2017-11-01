@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/z"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="550dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="@string/m1"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:onClick="onButton1"
+        android:text="@string/tei"
+        android:textSize="50dp"
+        android:layout_alignBottom="@+id/hashu"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/hashu" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:onClick="onButton2"
+        android:text="@string/bou"
+        android:textSize="50dp"
+        android:layout_alignTop="@+id/button13"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:onClick="onButton3"
+        android:text="@string/seh"
+        android:textSize="50dp"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/button13"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:onClick="onButton4"
+        android:text="@string/syu"
+        android:textSize="50dp"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button3" />
+
+
+    <Button
+        android:id="@+id/hashu"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:onClick="hash"
+        android:text="播種"
+        android:textSize="50dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="49dp" />
+
+    <Button
+        android:id="@+id/syuxtuka"
+        android:layout_width="600dp"
+        android:layout_height="100dp"
+        android:onClick="syux"
+        android:text="出荷"
+        android:textSize="50dp"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="散水"
+        android:textSize="50dp"
+        android:onClick="san"
+        android:layout_below="@+id/hashu"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp" />
+
+
+    <!--<Button-->
+        <!--android:id="@+id/button5"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:layout_marginBottom="19dp"-->
+        <!--android:onClick="onButton5"-->
+        <!--android:text="@string/data"-->
+        <!--android:textSize="30dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignStart="@+id/button3" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button7"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:text="@string/D"-->
+        <!--android:textSize="30dp"-->
+        <!--android:onClick="onData"-->
+        <!--android:layout_alignTop="@+id/button5"-->
+        <!--android:layout_alignStart="@+id/button4" />-->
+</RelativeLayout>

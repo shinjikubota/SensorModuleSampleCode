@@ -1,0 +1,43 @@
+buildscript {
+	repositories {
+		jcenter()
+	}
+	dependencies {
+		classpath 'com.android.tools.build:gradle:2.3.2'
+	}
+}
+apply plugin: 'com.android.application'
+
+repositories {
+	jcenter()
+}
+
+android {
+	compileSdkVersion 21
+	buildToolsVersion '25.0.0'
+
+	defaultConfig {
+		applicationId "com.alps.sample"
+		minSdkVersion 18
+
+		//21を22にした
+		targetSdkVersion 22
+		versionCode 17
+		versionName "1.1"
+	}
+	buildTypes {
+		release {
+			minifyEnabled false
+			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+		}
+	}
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:22.2.0'
+
+	//追加
+	compile 'com.loopj.android:android-async-http:1.4.9'
+    compile files('libs/android-async-http-1.4.9.jar')
+}

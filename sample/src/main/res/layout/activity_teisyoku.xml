@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:onClick="onReturn"
+        android:layout_width="200dp"
+        android:textSize="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/R"
+        android:id="@+id/button1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mtei"
+        android:textSize="35dp"
+        android:layout_marginTop="66dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button"
+        android:onClick="onButton1"
+        android:text="@string/tei1"
+        android:textSize="50dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="60dp"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignStart="@+id/imageView" />
+
+    <Button
+        android:id="@+id/button2"
+        android:onClick="onButton2"
+        android:text="@string/tei2"
+        android:textSize="50dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignTop="@+id/button" />
+
+    <Button
+        android:id="@+id/button3"
+        android:onClick="onButton3"
+        android:text="@string/tei3"
+        android:textSize="50dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignBottom="@+id/button4" />
+
+    <Button
+        android:id="@+id/button4"
+        android:onClick="onButton4"
+        android:text="@string/tei4"
+        android:textSize="50dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignStart="@+id/button2" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="479dp"
+        android:layout_height="245dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/teisyoku"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+
+</RelativeLayout>

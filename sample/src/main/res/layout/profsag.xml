@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="600dp"
+        android:layout_height="60dp"
+        android:text="追加する作業者を入力して下さい"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="48dp" />
+
+
+    <EditText
+        android:id="@+id/editT"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="例：伊藤さん"
+        android:textSize="40dp"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/textView5"
+        android:layout_toEndOf="@+id/textView7" />
+
+    <Button
+        android:onClick="soushin"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="追加"
+        android:textSize="40dp"
+        android:layout_marginTop="96dp"
+        android:id="@+id/button14"
+        android:layout_below="@+id/editT2"
+        android:layout_alignEnd="@+id/editT"
+        android:layout_marginEnd="24dp" />
+
+
+    <EditText
+        android:id="@+id/editT2"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="例：神奈川県横浜市港北区99-99"
+        android:textSize="40dp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/editT"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="名前"
+        android:textSize="45dp"
+        android:layout_alignBaseline="@+id/editT"
+        android:layout_alignBottom="@+id/editT"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="住所"
+        android:textSize="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/editT2"
+        android:layout_alignTop="@+id/editT2" />
+
+
+</RelativeLayout>

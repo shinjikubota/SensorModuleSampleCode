@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:textSize="40dp"
+        android:text="圃場を選択して下さい"
+        android:layout_marginTop="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:choiceMode="multipleChoice"
+        android:layout_width="600dp"
+        android:layout_height="500dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        />
+
+    <Button
+        android:id="@+id/tsugi"
+        android:onClick="tsugi"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/listView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        android:text="次へ"
+        android:textSize="40dp" />
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_width="479dp"-->
+        <!--android:layout_height="245dp"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:src="@drawable/hatake"-->
+        <!--android:layout_above="@+id/textView3"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="40dp" />-->
+
+
+    <!--<Button-->
+        <!--android:id="@+id/button8"-->
+        <!--android:onClick="tohojyoA"-->
+        <!--android:layout_width="500dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:textSize="40dp"-->
+        <!--android:text="@string/ha"-->
+        <!--android:layout_marginBottom="137dp"-->
+        <!--android:layout_above="@+id/button14"-->
+        <!--android:layout_centerHorizontal="true" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button13"-->
+        <!--android:onClick="tohojyoB"-->
+        <!--android:layout_width="500dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:textSize="40dp"-->
+        <!--android:text="@string/hb"-->
+        <!--android:layout_alignBottom="@+id/button14"-->
+        <!--android:layout_alignStart="@+id/button8"-->
+        <!--android:layout_marginBottom="114dp" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button14"-->
+        <!--android:onClick="tohojyoC"-->
+        <!--android:layout_width="500dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:textSize="40dp"-->
+        <!--android:text="@string/hc"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignStart="@+id/button13"-->
+        <!--android:layout_marginBottom="47dp" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView3"-->
+        <!--android:layout_width="500dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:textSize="40dp"-->
+        <!--android:text="@string/hojyo"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_alignStart="@+id/button8" />-->
+
+
+
+    <!--<Button-->
+        <!--android:id="@+id/button15"-->
+        <!--android:onClick="onReturn"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="30dp"-->
+        <!--android:layout_marginStart="24dp"-->
+        <!--android:text="@string/R"-->
+        <!--android:layout_above="@+id/imageView"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginBottom="18dp" />-->
+
+
+</RelativeLayout>
